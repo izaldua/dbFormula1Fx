@@ -1,6 +1,7 @@
-package data_access;
+package dataAccess;
 
 import domain.Pilot;
+import javafx.collections.ObservableList;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -187,6 +188,5 @@ public class DbAccessManager {
         this.close();
         return result;
     }
-
 
 }
